@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex">
+
+    <div class="wrapper">
+        <div class="quizz-container">
+            <h1 class="quizz-title">Quizz Game</h1>
+            <div class="quizz-score flex">
+                <span id="correct-score">0</span>
+                /
+                <span id="total-question"></span>
+            </div>
+
+            <div class="quizz-body">
+                <h2 class="quizz-question" id="question">What is the full form of http? <br> <span class="category"> Category</span></h2>
+                <ul class="quizz-options">
+                    <li>Hyper Text Transfer Package</li>
+                    <li>Hyper Text Transfer Package</li>
+                    <li>Hyper Text Transfer Package</li>
+                    <li>Hyper Text Transfer Package</li>
+                </ul>
+                <div id="result">
+
+                </div>
+            </div>
+            <div class="quizz-foot">
+                <button type="button" id="check-answer">Check Answer</button>
+                <button type="button" id="play-again">Play Again</button>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
